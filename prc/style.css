@@ -1,0 +1,134 @@
+/* General Body Styling */
+body {
+    background-color: #f4f4f4; /* Light gray for a clean background */
+    color: #333; /* Darker text for readability */
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Links Styling */
+a {
+    text-transform: capitalize;
+    color: #0078D4; /* Blue link color for a professional look */
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header Styles */
+h2 {
+    color: #2F4F4F; /* Dark slate gray for headers */
+    font-weight: 600;
+}
+
+h5.h {
+    border-radius: 8px;
+    border: 1px solid #dcdcdc; /* Subtle light gray border */
+    color: #333;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    padding: 8px;
+}
+
+/* Footer Styling */
+#footer {
+    background-color: #282c34; /* Dark theme footer */
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Form Styling */
+.form-heading {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.form-section {
+    border-radius: 8px;
+    background-color: #ffffff; /* White form section */
+    padding: 25px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    border: 1px solid #dcdcdc;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="number"],
+form input[type="time"],
+form input[type="password"],
+form select,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #dcdcdc; 
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: #fafafa;
+    color: #333;
+}
+
+button[type="submit"], .button {
+    border-radius: 4px;
+    border: none;
+    background-color: #0078D4; /* Modern blue button */
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover, .button:hover {
+    background-color: #005a9e; /* Darker blue on hover */
+}
+
+/* Card or Box Styling */
+p.profile, p.merge {
+    border-radius: 6px;
+    border: 1px solid #dcdcdc;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+/* Navbar Styling */
+.simple.navbar {
+    background-color: #282c34;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Error Styling */
+.error {
+    color: #d32f2f; /* Subtle red for error messages */
+}
+
+/* Button Styling for Special Cases */
+.button {
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+/* Box with Rounded Corners */
+#edges {
+    border-radius: 6px;
+    border: 1px solid #dcdcdc;
+    padding: 10px;
+}
